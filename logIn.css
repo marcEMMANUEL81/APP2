@@ -1,0 +1,235 @@
+body{
+    justify-content: center;
+    align-items: center; 
+}
+
+.page{
+    position: relative;
+    max-height: 655px;
+    max-width: 1335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    z-index: 1;
+    position: absolute;
+}
+
+.main{
+    height: 700px;
+    width: 600px;
+    margin-top: 180px;
+    margin-left: 260px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: #d1d1d1 1px 4px 4px 6px;
+    z-index: 2;
+    border-radius: 10px;
+    z-index: 10;
+    display: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    position: relative;
+    top: 25px;
+    font-family: 'poppins regular';
+    font-size: 30px;
+    font-weight: 590;
+    color: #06156b;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+p.success {
+    position: relative;
+    z-index: 9999999;
+}
+
+.nom{
+    position: relative;
+    top: 30px;
+    height: 40px;
+    width: 200px;
+    border-radius: 7px;
+    border: solid #d1d1d1 2px;
+    font-family: 'poppins';
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    margin: 20 auto;
+}
+
+.prenom{
+    position: relative;
+    top: 30px;
+    height: 40px;
+    width: 300px;
+    border-radius: 7px;
+    border: solid #d1d1d1 2px;
+    font-family: 'poppins';
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    margin: 20 auto;
+}
+
+.mail{
+    position: relative;
+    top: 30px;
+    height: 40px;
+    width: 550px;
+    border-radius: 7px;
+    border: solid #d1d1d1 2px;
+    font-family: 'poppins';
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10 auto;
+}
+
+.Password{
+    position: relative;
+    top: 30px;
+    height: 40px;
+    width: 250px;
+    border-radius: 7px;
+    border: solid #d1d1d1 2px;
+    font-family: 'poppins';
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20 auto;
+}
+
+.cell{
+    position: relative;
+    top: 30px;
+    height: 40px;
+    width: 250px;
+    border-radius: 7px;
+    border: solid #d1d1d1 2px;
+    font-family: 'poppins';
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20 auto;
+}
+
+.forme_texte{
+    margin-top: 40px;
+    font-family: 'poppins';
+    font-size: 17px;
+    color: #6e6e6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection{
+    width: 550px;
+    height: 40px;
+    border-radius: 7px;
+    border: solid #d1d1d1 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'poppins';
+    font-size: 17px;
+}
+
+.code{
+    position: relative;
+    top: 30px;
+    height: 40px;
+    width: 250px;
+    border-radius: 7px;
+    border: solid #d1d1d1 2px;
+    font-family: 'poppins';
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.ville{
+    position: relative;
+    top: 30px;
+    height: 40px;
+    width: 250px;
+    border-radius: 7px;
+    border: solid #d1d1d1 2px;
+    font-family: 'poppins';
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nom:focus{
+    outline: none;
+    outline-offset: none;
+  }
+
+.prenom:focus{
+    outline: none;
+    outline-offset: none;
+}
+
+.mail:focus{
+    outline: none;
+    outline-offset: none;
+}
+
+.Password:focus{
+    outline: none;
+    outline-offset: none;
+}
+
+.selection:focus{
+    outline: none;
+    outline-offset: none;
+}
+
+.btn{
+    height: 40px;
+    width: 85px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'poppins';
+    font-size: 16px;
+    color: white;
+    background-color: #06156b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+}
+
+.success{
+    font-family: 'poppins';
+    font-size: 18px;
+    color: #06156b;
+}
+
+.class1{
+    display: flex;
+}
+
+.class2{
+    display: flex;
+}
+
+.class3{
+    display: flex;
+}
+

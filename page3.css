@@ -1,0 +1,350 @@
+/* INITIALISATION DE LA PAGE */
+
+html, body {height:100%;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* FIN INITIALISATION DE LA PAGE */
+
+/* Barre de navigation & entête*/
+
+.page_name{
+    color: rgb(212, 123, 6);
+    font-size: 25px;
+    font-weight: 700;
+    margin: auto 50px;
+    max-width: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .page_name.sticky3{
+    color: white;
+  }
+  
+  
+  .navigation{
+    z-index: 1300;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    box-shadow: #cccccc 2px 2px 2px ;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  .navigation.sticky{
+    padding: 15px ;
+    background: rgb(212, 123, 6);
+    box-shadow: none ;
+  
+  }
+  
+  .navigation_info{
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    margin: auto 0px;
+    margin-left: 40% ;
+  }
+  
+  .nav_info{
+    margin-right: 30px;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 18px;
+    font-family: 'poppins';
+    font-weight: 500;
+    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  .nav_info.sticky2{
+    color: white;
+  }
+  
+  .nav_info.sticky2:hover{
+    color: rgb(212, 123, 6);
+  }
+  
+  .nav_info:hover{
+    color: rgb(212, 123, 6);
+    transition: 500ms ease;
+  }
+  
+  /* fin Barre de navigation & entête*/
+
+/* VIDEO PRINCIPALE */
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-attachment: fixed;
+    z-index: 0;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(80, 80, 80);
+    cursor: pointer;
+    font-family: poppins;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  /*Bas de la page avec les infos*/
+
+.Info {
+  height: 2500px;
+  width: 100%;
+  z-index: 1200;
+  position: relative;
+  top: 1000px;
+  justify-content: center;
+  background-color: rgb(236, 236, 236);
+  margin: 0 auto;
+  display: block;
+}
+
+.titre1{
+    position: relative;
+    font-family: poppins;
+    font-size: 30px;
+    color: rgb(212, 123, 6);
+    text-align: center;
+    justify-content: center;
+    top: 55px;
+}
+
+.titre2{
+  position: relative;
+  font-family: poppins;
+  font-size: 19px;
+  text-align: center;
+  justify-content: center;
+  top: 120px;
+  font-weight:450 ;
+  color: rgb(212, 123, 6);
+}
+
+.support1{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: 150px;
+  margin-left: 30px;
+}
+
+.img{
+  width: 30%;
+  height: 100%;
+  margin: 0 50px 0 0px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 6px #989898;
+}
+
+.titre3{
+  position: relative;
+  font-family: poppins;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  top: 280px;
+  color: rgb(212, 123, 6);
+  font-weight:450 ;
+}
+
+.espace{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  top: 300px;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  font-family: "poppins";
+  margin: 0 50px 0 5px;
+}
+
+.texte{
+  font-family:"poppins";
+  font-size: 16px;
+  margin: 0 40px;
+}
+
+.titre4{
+  position: relative;
+  font-family: poppins;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  top: 415px;
+  color: rgb(212, 123, 6);
+  font-weight:450 ;
+}
+
+  .espace2{
+    width: 90%;
+    height: 650px;
+    position: relative;
+    top: 450px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px 0 5px;
+    margin: 0 90px;
+    display: flex;
+  }
+
+  .espace3{
+    width: 25%;
+    height: 100%;
+  }
+
+  .espace4{
+    height: 100%;
+    width: 78%;
+  }
+
+  .img1{
+    height: 100%;
+    box-shadow: 4px 4px 6px #cccccc;
+  }
+
+  .img2{
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    box-shadow: 4px 4px 6px #8b8b8b;
+  }
+  
+  .titre5{
+    position: relative;
+    font-family: poppins;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    top: 580px;
+    color: rgb(212, 123, 6);
+    font-weight:450 ;
+  } 
+
+  .commentSpace{
+    width: 70%;
+    height: 220px;
+    padding-top: 20px;
+    background-color: rgb(212, 123, 6);
+    position: relative;
+    top: 620px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .espace5{
+    width: 35%;
+    height: 100%;
+  }
+
+  .espace6{
+    width: 65%;
+    height: 100%;
+  }
+
+  .input1{
+    position: relative;
+    width: 70%;
+    height: 40px;
+    border: none;
+    margin: 10px 55px;
+    padding-left: 15px;
+    border-radius: 3px;
+    font-family: 'poppins';
+    font-size: 16px;
+  }
+
+  .input2{
+    position: relative;
+    width: 86%;
+    height: 100px;
+    border: none;
+    margin: 10px 55px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border-radius: 3px;
+    font-family: 'poppins';
+    font-size: 16px;
+  }
+
+  .input2:focus{
+    outline: none;
+    outline-offset: none;
+  }
+
+  .input1:focus{
+    outline: none;
+    outline-offset: none;
+  }
+
+  .footer{
+    position: relative;
+    top: 720px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    background-color: rgb(212, 123, 6);
+    color: white;
+  }
+
+  .footer span a{
+    color: rgb(116, 126, 118);
+    font-weight: 600;
+  }
+
+  .btn{
+    margin-top: 15px;
+    margin-left: 350px;
+    height: 35px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #858585;
+  }
+
+  .btn:hover{
+    background-color: #858585;
+    transition: 500ms all ease-in;
+    color: white;
+  }
