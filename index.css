@@ -1,0 +1,381 @@
+/* paramètre de la page*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* fin paramètre de la page*/
+
+/* Barre de navigation & entête*/
+
+.page_name{
+  color: rgb(212, 123, 6);
+  font-size: 25px;
+  font-weight: 700;
+  margin: auto 50px;
+  max-width: 50%;
+  transition: all 0.3s ease;
+}
+
+.page_name.sticky3{
+  color: white;
+}
+
+.navigation{
+  z-index: 1300;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  box-shadow: #cccccc 2px 2px 2px ;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.navigation.sticky{
+  padding: 20px ;
+  background: rgb(212, 123, 6);
+  box-shadow: none ;
+
+}
+
+.navigation_info{
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  margin: auto 0px;
+  margin-left: 40% ;
+}
+
+.nav_info{
+  margin-right: 30px;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-size: 18px;
+  font-family: 'poppins';
+  font-weight: 500;
+  transition: color 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.nav_info.sticky2{
+  color: white;
+}
+
+.nav_info.sticky2:hover{
+  color: rgb(212, 123, 6);
+}
+
+.nav_info:hover{
+  color: rgb(212, 123, 6);
+  transition: 500ms ease;
+}
+
+/* fin Barre de navigation & entête*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@900&family=Rubik&display=swap');
+
+.text1{
+  position: fixed;
+  z-index: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 110px;
+  color: rgb(212, 123, 6);
+  font-family: 'poppins medium';
+  margin: 280px 100px;
+  z-index: 999;
+}
+.text2{
+  position: fixed;
+  z-index: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  top: 430px;
+  padding-left: 105px;
+  font-size: 23px;
+  font-family: 'poppins';
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  max-width: 100%;
+}
+
+.text2 span{
+  font-family: 'poppins';
+  font-weight: 500;
+}
+
+.img{
+  top: 80px;
+  position: fixed;
+  max-width: 100%;
+  z-index: 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main{
+  height: 2300px;
+  width: 100%;
+  z-index: 1200;
+  position: relative;
+  top: 1000px;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  display: block;
+}
+
+.title{
+  position: relative;
+  top: 30px;
+  font-size: 25px;
+  font-family: 'poppins';
+  color: rgb(212, 123, 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloc{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  top: 150px;
+  justify-content: center;
+}
+
+.bloc2{
+  position: relative;
+  display: flex;
+  width: 100%;
+  top: 600px;
+  justify-content: center;
+}
+
+.bloc3{
+  position: relative;
+  display: flex;
+  width: 100%;
+  top: 700px;
+  justify-content: center;
+}
+
+.bloc4{
+  position: relative;
+  display: flex;
+  width: 100%;
+  top: 800px;
+  justify-content: center;
+}
+
+
+.case{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+}
+
+.case2{
+  position: relative;
+  max-width: 25%;
+  height: 400px;
+  margin-left: 60px;
+  margin-right: 50px;
+}
+
+.case2 h1 {
+  height: 70px;
+  width: 400px;
+  font-family: 'poppins';
+  font-size: 28px;
+  margin-top: 40px;
+  color: rgb(212, 123, 6);
+  font-weight: 600;
+}
+
+.case2 p {
+  height: 190px;
+  width: 400px;
+  font-family: 'poppins';
+  text-align: justify;
+  font-size: 18px;
+  color: black;
+}
+
+.button{
+  width: 100px;
+  height: 45px;
+  background-color: #c5601d;
+  border-radius: 60px;
+  transition: all 0.5s ease-in;
+  border: none;
+  color: white;
+  font-size: 19px;
+  font-family: 'poppins';
+}
+
+.button:hover{
+  background-color: #e49d5a;
+}
+
+.button a:hover{
+  color: white;
+}
+
+/* footer section styling */
+.footer{
+  margin-top: 910px;
+  z-index: 100000;
+  position: relative;
+  background: #111;
+  padding: 35px 23px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer span a{
+  color: #1c56f6;
+  text-decoration: none;
+}
+.footer span a:hover{
+  text-decoration: underline;
+}
+
+/*floating effect*/
+
+.floating {
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+}
+
+@keyframes floating {
+	0% { transform: translate(0, 0px); }
+	50% { transform: translate(0, 10px); }
+	100% { transform: translate(0, -0px); }
+}
+
+.move {
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+  width: 800px;
+  height: 800px;
+  border-radius: 0px;
+  margin-left: 800px;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width : 376px){
+  .navigation{
+    position: fixed;
+  }
+  .page_name{
+    font-size: 20px;
+    margin: 0;
+  }
+  .navigation_info {
+    display: none;
+  }
+  .text1{
+    position: fixed;
+    z-index: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 600px;
+    margin-left: 30px;
+    width: 30px;
+    padding: 0;
+    display: flex-start;
+  }
+  .text2{
+    z-index: 0;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 950px 0 0 27px;
+    width: 300px;
+    padding: 5;
+    font-size: 15px;
+    height: 100px;
+  }
+  .img{
+    height: 300px;
+    width: 1000px;
+  }
+  .floating{
+    display: none;
+  }
+  .move{
+    margin: 50px 0 0 20px;
+    width: 350px;
+    height: 350px;
+  }
+  .case2{
+    position: relative;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 200px;
+    top: 10px;
+  }
+  .main{
+    height: 1300px;
+    top: 900px;
+  }
+  .case{
+    position: absolute;
+    left: -999em;
+  }
+  .case2 p {
+    height: 150px;
+    width: 300px;
+    font-size: 14px;
+    margin: 0 0 0 10px;
+  }
+  .case2 h1 {
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    margin: 0 0 0 10px;
+  }
+  .button{
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  .bloc{
+    top: 100px;
+  }
+  .bloc2{
+    top: 350px;
+  }
+  .bloc3{
+    top: 450px;
+  }
+  .bloc4{
+    top: 550px;
+  }
+  body{
+    font-family: 'poppins';
+  }
+  footer{
+  }
+}
